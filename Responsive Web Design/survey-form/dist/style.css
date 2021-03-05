@@ -1,0 +1,37 @@
+#main{
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  margin:auto;
+  width:50%
+}
+h1{
+  font-family:"Lucida Console";
+}
+form>label{
+  font-family:"Monaco";
+}
+.centerTextAlign {
+  text-align:center;
+}
+body{
+  background-color:#FC766AFF;
+}
+#main{
+  background-color:#5B84B1FF;
+  border:.1rem;
+}
+input {
+  border:none;
+  border-bottom: .1rem solid ;
+}
+input:focus {
+  background-color: lightblue;
+}
+.formDimension{
+  width:95%;
+}
+#submit{
+  display:block;
+  margin:auto;
+}
