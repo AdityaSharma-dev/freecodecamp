@@ -1,0 +1,62 @@
+body{
+  margin:0px;
+}
+#navbar{
+  position:fixed;
+  background-color:#2988BC;
+  width:100%;
+  height:3rem;
+}
+.nav-link{
+  text-decoration:none;
+  font-size:25px;
+  color:white;
+  padding-right:15px;
+  font-family:Arial;
+  float:right;
+}
+#welcome-section{
+  padding-top:100px;
+  padding-left:10px;
+  text-align:center;
+  font-family:Helvetica;
+  font-size:2rem;
+  background-color:#ED8C72;
+  height:79vh;
+}
+#projects{
+  display:block;
+  height:100vh;
+  background-color:#F4EADE;
+  text-align:center;
+}
+.project-tile{
+  text-align:center;
+  
+}
+.project-title-img{
+  width:50%;
+  height:50%;
+}
+figcaption{
+  font-size:1.3rem;
+}
+#contact{
+  display:block;
+  text-align:center;
+  background-color:#2F496E;
+  color:#F4EADE;
+}
+#contact-links{
+  display:flex;
+}
+.profile{
+  padding-left:2rem;
+  text-decoration:none;
+  color:white;
+}
+@media screen and (max-width: 550px) {
+  #contact-links {
+    display:block;
+  }
+}
